@@ -1,0 +1,157 @@
+import * as Types from "../constants/constants";
+import queryString from "query-string";
+import callApi from "../common/callApi";
+
+export const actFetchDataHotTrendRequest = (filters) => {
+  const paramQuery = queryString.stringify(filters);
+  return (dispatch) => {
+    return callApi(`products?${paramQuery}`, "get", null).then((res) => {
+      if (res && res.data && res.status === 200) {
+        dispatch(actFetchDataHotTrend([...res.data]));
+      } else dispatch(actFetchDataHotTrend([]));
+    });
+  };
+};
+
+export const actFetchDataHotTrend = (data) => {
+  return {
+    type: Types.FETCH_DATAHOTTREND,
+    payload: data,
+  };
+};
+
+export const actFetchDataNewRequest = (filters) => {
+  const paramNewProduct = queryString.stringify(filters);
+  return (dispatch) => {
+    return callApi(`products?${paramNewProduct}`, "get", null).then((res) => {
+      if (res && res.data && res.status === 200) {
+        dispatch(actFetchDataNew([...res.data]));
+      } else dispatch(actFetchDataNew([]));
+    });
+  };
+};
+
+export const actFetchDataNew = (data) => {
+  return {
+    type: Types.FETCH_DATANEW,
+    payload: data,
+  };
+};
+
+export const actFetchDataDetailRequest = (id) => {
+  return (dispatch) => {
+    return callApi(`products?id=${id}`, "get", null).then((res) => {
+      if (res && res.data && res.status === 200) {
+        dispatch(actFetchDataDetail([...res.data]));
+      } else dispatch(actFetchDataDetail([]));
+    });
+  };
+};
+
+export const actFetchDataDetail = (data) => {
+  return {
+    type: Types.FETCH_DATADETAIL,
+    payload: data,
+  };
+};
+
+export const actFetchProductRequest = (filters) => {
+  const paramString = queryString.stringify(filters);
+
+  return (dispatch) => {
+    return callApi(`products?${paramString}`, "get", null).then((res) => {
+      if (res && res.data && res.status === 200) {
+        setTimeout(() => {
+          dispatch(actLoading(false));
+          dispatch(actFetchProduct([...res.data]));
+          dispatch(actFetchFilters(filters));
+        }, 200);
+      } else {
+        dispatch(actFetchProduct([]));
+      }
+    });
+  };
+};
+
+export const actFetchProduct = (data) => {
+  return {
+    type: Types.FETCH_PRODUCT,
+    payload: data,
+  };
+};
+
+export const actFetchTotalRowsRequest = (filterTotalRows) => {
+  const paramTotalRows = queryString.stringify(filterTotalRows);
+  return (dispatch) => {
+    return callApi(`products?${paramTotalRows}`, "get", null).then((res) => {
+      if (res && res.data && res.status === 200) {
+        dispatch(actFetchTotalRows([...res.data]));
+        dispatch(actFetchFilterTotalRow(filterTotalRows));
+      } else {
+        dispatch(actFetchTotalRows([]));
+        dispatch(actFetchFilterTotalRow({}));
+      }
+    });
+  };
+};
+
+export const actFetchTotalRows = (data) => {
+  return {
+    type: Types.FETCH_TOTALROW,
+    payload: data,
+  };
+};
+
+export const actFetchFilters = (filters) => {
+  return {
+    type: Types.FETCH_FILTERS,
+    payload: filters,
+  };
+};
+
+export const actFetchFilterTotalRow = (filterTotalRows) => {
+  return {
+    type: Types.FETCH_FILTERTOTALROW,
+    payload: filterTotalRows,
+  };
+};
+
+export const actLogin = () => {
+  return {
+    type: Types.LOGIN,
+  };
+};
+
+export const actLogout = () => {
+  return {
+    type: Types.LOGOUT,
+  };
+};
+
+export const actDelCart = (id) => {
+  return {
+    type: Types.DEL_CART,
+    payload: id,
+  };
+};
+
+export const actNumCart = (data) => {
+  return {
+    type: Types.NUM_CART,
+    payload: data,
+  };
+};
+
+export const actAddCart = (data) => {
+  return {
+    type: Types.CALL_CART,
+    payload: data,
+  };
+};
+
+export const actLoading = (data) => {
+  return {
+    type: Types.LOADING,
+    payload: data,
+  };
+};
