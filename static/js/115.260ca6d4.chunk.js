@@ -1,2 +1,0 @@
-(this.webpackJsonpmandala=this.webpackJsonpmandala||[]).push([[115],{64:function(a,t,n){"use strict";n.r(t),n.d(t,"host",(function(){return s}));var s="https://data-mandala.herokuapp.com"}}]);
-//# sourceMappingURL=115.260ca6d4.chunk.js.map
