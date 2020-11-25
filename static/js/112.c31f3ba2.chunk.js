@@ -1,0 +1,2 @@
+(this.webpackJsonpmandala=this.webpackJsonpmandala||[]).push([[112],{145:function(a,n,r){"use strict";function t(a){for(var n=[],r=[],t=0;t<a;t++)n.push("fas");for(var s=0;s<5-a;s++)r.push("far");return[].concat(n,r)}r.r(n),r.d(n,"default",(function(){return t}))}}]);
+//# sourceMappingURL=112.c31f3ba2.chunk.js.map

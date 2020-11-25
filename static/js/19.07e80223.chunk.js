@@ -1,0 +1,2 @@
+(this.webpackJsonpmandala=this.webpackJsonpmandala||[]).push([[19],{94:function(e,t,a){"use strict";a.r(t);var n=a(0),l=a.n(n);t.default=function(e){var t=e.data;return l.a.createElement("tr",null,l.a.createElement("td",{style:{fontSize:"20px"}},t.totalProduct),l.a.createElement("td",{style:{fontSize:"20px"}},t.paid),l.a.createElement("td",{style:{fontSize:"20px"}},t.unpaid),l.a.createElement("td",null,l.a.createElement("span",{className:"price",style:{fontSize:"20px"}},t.sum,l.a.createElement("small",null,"\u0111"))))}}}]);
+//# sourceMappingURL=19.07e80223.chunk.js.map
