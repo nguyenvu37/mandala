@@ -1,0 +1,2 @@
+(this.webpackJsonpmandala=this.webpackJsonpmandala||[]).push([[234],{258:function(a,i,p){a.exports=p.p+"static/media/iope-live-lift-special-gift-1-500x500.065f9d7e.jpg"}}]);
+//# sourceMappingURL=234.aae94b1c.chunk.js.map

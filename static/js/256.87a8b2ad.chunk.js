@@ -1,0 +1,2 @@
+(this.webpackJsonpmandala=this.webpackJsonpmandala||[]).push([[256],{280:function(a,p,e){a.exports=e.p+"static/media/Lime-Giga-White-Tone-Up-Cream-36-500x500.f770ac15.jpg"}}]);
+//# sourceMappingURL=256.87a8b2ad.chunk.js.map
