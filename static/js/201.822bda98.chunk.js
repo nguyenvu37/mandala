@@ -1,2 +1,0 @@
-(this.webpackJsonpmandala=this.webpackJsonpmandala||[]).push([[201],{225:function(a,n,s){a.exports=s.p+"static/media/kem-chong-nang-enesti-uv-cut-sun-block-spf-50-PA-40ml-tang-mat-na-1-500x500.70d3e7ab.jpg"}}]);
-//# sourceMappingURL=201.822bda98.chunk.js.map

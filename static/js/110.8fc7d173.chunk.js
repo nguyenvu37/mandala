@@ -1,0 +1,2 @@
+(this.webpackJsonpmandala=this.webpackJsonpmandala||[]).push([[110],{100:function(n,e,t){"use strict";function o(){return!!localStorage.getItem("Token")}function c(){return!!localStorage.getItem("TokenAdmin")}t.r(e),t.d(e,"checkTokenLogin",(function(){return o})),t.d(e,"checkTokenLoginAdmin",(function(){return c}))}}]);
+//# sourceMappingURL=110.8fc7d173.chunk.js.map

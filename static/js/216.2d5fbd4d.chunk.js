@@ -1,2 +1,0 @@
-(this.webpackJsonpmandala=this.webpackJsonpmandala||[]).push([[216],{240:function(a,n,t){a.exports=t.p+"static/media/sap-chong-nang-dang-thoi-enesti-sun-stick-uv-cut-perfect-spf-50-pa-23g-tang-kem-mat-na-1-500x500.87f6bf69.jpg"}}]);
-//# sourceMappingURL=216.2d5fbd4d.chunk.js.map

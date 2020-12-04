@@ -1,0 +1,2 @@
+(this.webpackJsonpmandala=this.webpackJsonpmandala||[]).push([[242],{269:function(a,p,s){a.exports=s.p+"static/media/jmSolution-marine-luminous-pearl-sun-spray-spf-50-pa-1-500x500.76a351c9.jpg"}}]);
+//# sourceMappingURL=242.7b011a21.chunk.js.map
