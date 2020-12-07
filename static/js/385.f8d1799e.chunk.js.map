@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets/img/loading-placehoder1.gif"],"names":["module","exports"],"mappings":"yFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/385.f8d1799e.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/loading-placehoder1.3775a0f3.gif\";"],"sourceRoot":""}

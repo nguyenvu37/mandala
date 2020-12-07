@@ -1,0 +1,2 @@
+(this.webpackJsonpmandala=this.webpackJsonpmandala||[]).push([[182],{211:function(a,e,s){a.exports=s.p+"static/media/AHC-Ageless-Real-Eye-Cream-For-Face-Season7-12ml-2-500x500.ced4b2bd.jpg"}}]);
+//# sourceMappingURL=182.27f03d06.chunk.js.map

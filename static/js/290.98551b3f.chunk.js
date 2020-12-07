@@ -1,0 +1,2 @@
+(this.webpackJsonpmandala=this.webpackJsonpmandala||[]).push([[290],{319:function(a,n,p){a.exports=p.p+"static/media/Yehwadam-Tone-U-Sun-Cream-14-500x500.86b3f3b0.jpg"}}]);
+//# sourceMappingURL=290.98551b3f.chunk.js.map

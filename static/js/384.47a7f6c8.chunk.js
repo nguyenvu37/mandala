@@ -1,2 +1,0 @@
-(this.webpackJsonpmandala=this.webpackJsonpmandala||[]).push([[384],{182:function(a,p,e){a.exports=e.p+"static/media/loading-placehoder.43fbce29.gif"}}]);
-//# sourceMappingURL=384.47a7f6c8.chunk.js.map

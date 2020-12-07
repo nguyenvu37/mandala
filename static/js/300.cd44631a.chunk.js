@@ -1,2 +1,0 @@
-(this.webpackJsonpmandala=this.webpackJsonpmandala||[]).push([[300],{328:function(a,e,n){a.exports=n.p+"static/media/bo-sua-rua-mat-chong-lao-hoa-da-yehwadam-hwansaenggo-rejuvenating-cleansing-special-kit-4-items-11-500x500.7a40ede4.jpg"}}]);
-//# sourceMappingURL=300.cd44631a.chunk.js.map
