@@ -1,1 +1,0 @@
-{"version":3,"sources":["assets/img/404-page/notfound.png"],"names":["module","exports"],"mappings":"yFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/161.f260f918.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/notfound.2d738a9c.png\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["assets/img/home/bg-slider.jpg"],"names":["module","exports"],"mappings":"yFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/346.865b8f30.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/bg-slider.00a309a0.jpg\";"],"sourceRoot":""}

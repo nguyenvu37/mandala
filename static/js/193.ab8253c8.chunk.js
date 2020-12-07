@@ -1,2 +1,0 @@
-(this.webpackJsonpmandala=this.webpackJsonpmandala||[]).push([[193],{220:function(a,p,s){a.exports=s.p+"static/media/cetaphil3.fd0c9bf8.jpg"}}]);
-//# sourceMappingURL=193.ab8253c8.chunk.js.map
